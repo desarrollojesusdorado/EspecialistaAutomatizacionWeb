@@ -27,6 +27,7 @@ dependencies {
     implementation "net.serenity-bdd:serenity-screenplay-rest:${serenityCoreVersion}"
     implementation "net.serenity-bdd:serenity-cucumber:${serenityCoreVersion}"
     implementation "net.serenity-bdd:serenity-screenplay-webdriver:${serenityCoreVersion}"
+    implementation group: 'net.serenity-bdd', name: 'serenity-cucumber6', version: '2.6.0'
     testImplementation "net.serenity-bdd:serenity-core:${serenityCoreVersion}",
             "net.serenity-bdd:serenity-junit5:${serenityCoreVersion}",
             "org.junit.jupiter:junit-jupiter-api:${junitVersion}",
