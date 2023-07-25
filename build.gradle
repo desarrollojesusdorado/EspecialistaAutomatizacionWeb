@@ -23,8 +23,8 @@ apply plugin: 'idea'
 apply plugin: "net.serenity-bdd.serenity-gradle-plugin"
 group 'co.com.automatizacionWeb.screenplay'
 
-sourceCompatibility = 16
-targetCompatibility = 16
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
