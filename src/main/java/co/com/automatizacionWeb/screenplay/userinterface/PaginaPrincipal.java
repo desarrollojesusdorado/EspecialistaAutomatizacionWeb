@@ -9,7 +9,7 @@ public class PaginaPrincipal {
             .located(ByShadow.cssSelector("button[class='airship-btn airship-btn-deny']", "div[class='airship-html-prompt-shadow']"));
 
     public static final Target MENU = Target.the("Click boton menu")
-            .located(By.id("testId-HamburgerBtn-toggle"));
+            .located(By.xpath("//*[@id='testId-HamburgerBtn-toggle']"));
 
     public static final Target CATEGORIA = Target.the("Escoger categoria")
             .locatedBy("//div[contains(text(), '{0}')]");

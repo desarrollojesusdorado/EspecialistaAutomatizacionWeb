@@ -1,6 +1,5 @@
 package co.com.automatizacionWeb.screenplay.tasks;
 
-import co.com.automatizacionWeb.screenplay.userinterface.PaginaPrincipal;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
